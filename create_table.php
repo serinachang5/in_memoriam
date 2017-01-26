@@ -17,8 +17,9 @@ $sql = "CREATE TABLE Victims (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 firstname VARCHAR(30) NOT NULL, 
 lastname VARCHAR(30) NOT NULL, 
-trace MEDIUMBLOB NOT NULL, 
-quote VARCHAR(1000) NOT NULL )";
+trace VARCHAR(100) NOT NULL, 
+quote VARCHAR(1000) NOT NULL,
+event VARCHAR(100) NOT NULL )";
 
 if ($conn->query($sql) == TRUE) {
     echo "Table Victims created successfully";
