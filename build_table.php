@@ -23,7 +23,7 @@ else {
 $jsmith = array(
     "firstname" => "john",
     "lastname" => "smith",
-    "trace" => "jsmith.jpg",
+    "trace" => "img/jsmith.jpg",
     "quote" => "abcdefg",
     "event" => "xyz"
 );
@@ -31,7 +31,7 @@ $jsmith = array(
 $jdoe = array(
     "firstname" => "jane",
     "lastname" => "doe",
-    "trace" => "jdoe.jpg",
+    "trace" => "img/jdoe.jpg",
     "quote" => "hijklm",
     "event" => "xyz"
 );
@@ -39,7 +39,7 @@ $jdoe = array(
 $jsmith2 = array(
     "firstname" => "john2",
     "lastname" => "smith2",
-    "trace" => "jsmith2.jpg",
+    "trace" => "img/jsmith2.jpg",
     "quote" => "theuheawoeihowiahr",
     "event" => "qrs"
 );
