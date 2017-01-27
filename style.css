@@ -1,6 +1,7 @@
 body {
     background-color:black;
     color:white;
+    overflow:hidden;
 }
 
 .centered {
@@ -34,8 +35,6 @@ h1 {
 
 #button > a { 
     color:white;
+    cursor:pointer;
 }
 
-#button > a:active {
-    color:white;
-}
