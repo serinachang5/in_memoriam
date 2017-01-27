@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#container2").hide(0);
+    $("#container2").hide(0);
     buttonListen();
 });
 
