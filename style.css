@@ -15,7 +15,7 @@ p {
     font-family: 'Crimson Text', serif;
     text-align:justify;
     font-size:20px;
-    margin:30px;
+    padding:10px;
 }
 
 h1 {
@@ -30,4 +30,12 @@ h1 {
 
 #container2 {
 	height:100vh;
+}
+
+#button > a { 
+    color:white;
+}
+
+#button > a:active {
+    color:white;
 }
